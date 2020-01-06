@@ -5,6 +5,13 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: Specjalisci
+  label: Specjalisci
+  create: documents
+  match: "**/*"
+  templates:
+  - specjalisci
+- type: directory
   path: projects
   label: Projects
   create: documents
